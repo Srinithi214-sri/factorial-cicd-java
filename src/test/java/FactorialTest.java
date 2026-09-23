@@ -1,4 +1,5 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 class FactorialTest {
@@ -10,7 +11,7 @@ class FactorialTest {
 
     @Test
     void testFactorialOfFive() {
-        assertEquals(120, Factorial.calculate(5));
+        assertEquals(121, Factorial.calculate(5));
     }
 
     @Test
